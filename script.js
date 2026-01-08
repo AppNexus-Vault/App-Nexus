@@ -305,7 +305,10 @@
     "WPS Office": { "Sharing Pro": [{ duration: "1 Month", price: "10,000 Kyats" }, { duration: "1 Year", price: "39,500 Kyats" }] },
     "TradingView": { "Private": [{ duration: "1 Month", price: "33,000 Kyats" }] },
     "PlaySafeCard": { "Voucher": [{ duration: "1 Card", price: "5,000 Kyats" }] }, 
-    "TikTok Official": { "Login method": [{ "duration": "100 Coin", "price": "5,300 Kyats" }] },
+    "TikTok Official": { 
+        "Login method": [{ "duration": "100 Coin", "price": "5,300 Kyats" }],
+        "Promote Service": [{ "duration": "1$", "price": "5,300 Kyats" }]
+    },
     "TikTok Non Official": {
       "Views (NoDrop)": [{ "duration": "10,000 Views", "price": "1,500 Kyats" }, { "duration": "100,000 Views", "price": "7,500 Kyats" }, { "duration": "1,000,000 Views", "price": "25,000 Kyats" }],
       "Likes (NoDrop)": [{ "duration": "1,000 Likes", "price": "3,000 Kyats" }, { "duration": "10,000 Likes", "price": "16,500 Kyats" }, { "duration": "100,000 Likes", "price": "120,000 Kyats" }],
@@ -410,7 +413,7 @@
     "Google One": `Private (own mail)\nIncludes GeminiVeo3 AI + premium features\nFull warranty` + generalDetailsBlock, 
     "Google Drive": `Private (own mail)\n30-days warranty` + generalDetailsBlock, 
     "TeraBox": `Sharing (2TB)\nShared account. One device only.\nFull warranty for plan duration.` + generalDetailsBlock, 
-    "ChatGPT Plus": `Personal Plus (Private)\nUp to 5 devices (not recommended)\n${chatGptWarrantyNote}\n\nBusiness - Invite Own Email\n1 device\nဒါကကိုယ်သုံးနေတဲ့ Emailကို GPT Plus ပြောင်းပေးတာဖြစ်ပီး history ကလဲကိုယ့်အကောင့်ပဲမို့ private history နဲ့သုံးရမာပါ။\n${chatGptWarrantyNote}\n\nBusiness Plus Own\nCan invite 4 Email\n${chatGptWarrantyNote}\n\nBusiness Plus Own(Full Warranty)\nFull Warranty for full duration. Deactivateဖြစ်လဲတစ်လပြည့်တဲ့ထိလဲပေးမာပါ။` + generalDetailsBlock,
+    "ChatGPT Plus": `Personal Plus (Private)\nUp to 5 devices (not recommended)\n${chatGptWarrantyNote}\n\nBusiness - Invite Own Email\n1 device\nဒါကကိုယ်သုံးနေတဲ့ Emailကို GPT Plus ပြောင်းပေးတာဖြစ်ပီး history ကလဲကိုယ့်အကောင့်ပဲ mို့ private history နဲ့သုံးရမာပါ။\n${chatGptWarrantyNote}\n\nBusiness Plus Own\nCan invite 4 Email\n${chatGptWarrantyNote}\n\nBusiness Plus Own(Full Warranty)\nFull Warranty for full duration. Deactivateဖြစ်လဲတစ်လပြည့်တဲ့ထိလဲပေးမာပါ။` + generalDetailsBlock,
     "Gemini Veo 3": `Private(Can Invite 5 Email)\nIncludes 2000GB Google storage\nFull warranty • Unlimited devices` + generalDetailsBlock, 
     "Grammarly AI": `Share\nFull warranty • One device only` + generalDetailsBlock, 
     "Zoom": `Full warranty.\nAll pro features unlock.\nCan use 2-5 devices.` + generalDetailsBlock, 
@@ -427,7 +430,16 @@
     "WPS Office": `Sharing Pro\nFull warranty for full duration.\nOne device only.\nIncludes all premium features in WPS. (Word, Spreadsheets, Presentation, PDF tools)` + generalDetailsBlock, 
     "TradingView": `Private\nFull warranty for full duration.\nSupports all devices.` + generalDetailsBlock, 
     "PlaySafeCard": `Voucher Code\nExpires in 7 Days.\nPlease contact admin for usage details.` + generalDetailsBlock,
-    "TikTok Official": `Coinက TikTok official boostတဲ့နေရာမာ Coin တေကိုသုံးရတာပါ။အဲ့ Coin ကိုရောင်းပေးတာပါ။ Login ဝင်ပီးဝယ်ရတာပါ။ buttt email password ဘာမပေးစရာမလိုပါဘူး။` + generalDetailsBlock,
+    "TikTok Official": `Login method
+Coinက TikTok official boostတဲ့နေရာမာ Coin တေကိုသုံးရတာပါ။အဲ့ Coin ကိုရောင်းပေးတာပါ။ Login ဝင်ပီးဝယ်ရတာပါ။ buttt email password ဘာမပေးစရာမလိုပါဘူး။
+
+Promote Service
+TikTok Boost Service အပ်မယ်ဆိုရင် အကောင့် Password ပေးစရာမလိုပါဘူး
+Boost လုပ်ချင်တဲ့ Video link ပို့ပေးရုံပါပဲ
+ဒီဘက် Service သမားက လုပ်ပေးတဲ့အခါ Inbox မှာဝင်လာတဲ့ Permission တောင်းတာကို Confirm နှိပ်ပေးရင်ရပါပြီ
+( ဒါကလဲ ပထမဆုံးစအပ်တဲ့တခါပါပဲ နောက်တခါထပ်အပ်ရင် လုပ်စရာမလိုတော့ပါဘူး)
+Facebook Page လို Inreview မကြာလို့ နာရီဝက် တနာရီအတွင်း Active ဖြစ်ပါတယ်
+View တွေ Like , Follower တွေကတော့ ကိုယ် Boost ထားတဲ့ ရက်အတွင်း တက်နေမှာဖြစ်လို့ စိတ်ရှည်ရှည်နဲ့စောင့်ဖို့လိုပါမယ်` + generalDetailsBlock,
     "TikTok Non Official": `Views (NoDrop)\nNo dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။\n\nLikes (NoDrop)\nNo dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။\n\nPackage Plan\nNo dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။` + generalDetailsBlock,
     "Telegram Boosting": `Post Reactions are Lifetime No-Drop. Members have a 30-day refill guarantee.` + generalDetailsBlock,
     "YouTube Boosting": `Livestream Views are Impression type, please contact admin for specific details before purchasing.` + generalDetailsBlock,
@@ -847,7 +859,7 @@
     const fullText = moreDetailsByProduct[productName]; 
     if (!fullText) return null;
     const lines = fullText.trim().split('\n').map(l => l.trim()).filter(l => l.length > 0);
-    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Login|Gift Plan|Link Plan|Views|Likes|Package Plan|Livestream|Post Views|Reactions|Members|Custom)/i; 
+    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Login|Gift Plan|Link Plan|Views|Likes|Package Plan|Livestream|Post Views|Reactions|Members|Custom|Promote Service)/i; 
     let targetSection = item.section.replace(/ \(.*\)/, ''); 
     const sectionStartIndex = lines.findIndex(line => line.toLowerCase().includes(targetSection.toLowerCase()));
     if (sectionStartIndex !== -1) {
