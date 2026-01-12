@@ -157,6 +157,17 @@
     "Crunchyroll": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_A70E5F8_.png",
     "Telegram Star": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_AEF396E_.png",
     "Google Play Gift Card": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_E847DAF_.png?updatedAt=1767023159606",
+    
+    /* Money Transfer Icons */
+    "KBZpay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-C695-D25-1.png",
+    "Wavepay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-7-D8-AC42-1.png",
+    "Ayapay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-01-CA830.png",
+    "Cbpay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-A872-E8-C.png",
+    "Ok pay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-6373-C12.png",
+    "Citizenpay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-9460-A69.png",
+    "A+ wallet to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B7-E9-D62.png",
+    "Trustypay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-A7-EE340.png",
+
     // REGION FLAGS
     "Google Play Turkey": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_C5A9149_.png",
     "Google Play Indonesia": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_9D4756B_.png",
@@ -364,6 +375,17 @@
     "HMA VPN": { "Private": [{ "duration": "1 Month", price: "11,000 Kyats" }] },
     "Crunchyroll": { "Share": [{ "duration": "9 Months", price: "26,000 Kyats" }] },
     "Telegram Star": { "Stars": [{ "duration": "50 Stars", price: "5,800 Kyats" }, { "duration": "100 Stars", price: "11,600 Kyats" }] },
+    
+    /* Money Transfer Service Data */
+    "KBZpay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "Wavepay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "Ayapay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "Cbpay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "Ok pay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "Citizenpay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "A+ wallet to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+    "Trustypay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
+
     "Google Play Japan": { "Japan Region (¥)": [{ "duration": "¥500", price: "21,000 Kyats" }, { "duration": "¥1,000", price: "42,000 Kyats" }, { "duration": "¥1,500", price: "63,000 Kyats" }] },
     "Google Play US": { "US Region ($)": [{ "duration": "$5", price: "30,000 Kyats" }, { "duration": "$10", price: "60,000 Kyats" }, { "duration": "$50", price: "300,000 Kyats" }, { "duration": "$100", price: "600,000 Kyats" }] },
     "Google Play UK": { "UK Region (£)": [{ "duration": "£5", price: "39,000 Kyats" }, { "duration": "£10", price: "78,000 Kyats" }, { "duration": "£50", price: "390,000 Kyats" }, { "duration": "£100", price: "780,000 Kyats" }, { "duration": "£500", price: "3,900,000 Kyats" }] },
@@ -463,7 +485,17 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     "Adobe Creative Cloud": `Adobe Creative Cloud မာဆိုရင်\n\nPhotoshop → edit photos & images\n\nIllustrator → make logos & vector designs\n\nPremiere Pro → edit videos\n\nAfter Effects → add animations & effects\n\nInDesign → design posters, books, layouts\n\nAcrobat Pro → edit & sign PDFs\n\nစတဲ့ App တေရဲ့ Pro version တေအပြင်တခြား audio, animation, UI design, and content creationလုပ်ဖို့လိုတဲ့ Appတေပါပါမာပါ။` + generalDetailsBlock,
     "HMA VPN": `Can use 5 to 10 devices. Recommend for desktop devices.` + generalDetailsBlock,
     "Crunchyroll": `Share\n5-Months warranty • One device only` + generalDetailsBlock,
-    "Telegram Star": `Usernameပဲလိုပါမယ်` + generalDetailsBlock
+    "Telegram Star": `Usernameပဲလိုပါမယ်` + generalDetailsBlock,
+
+    /* Money Transfer Service Details */
+    "KBZpay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "Wavepay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "Ayapay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "Cbpay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "Ok pay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "Citizenpay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "A+ wallet to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
+    "Trustypay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock
   };
     
   const deviceSupport = { 
@@ -540,7 +572,17 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     "Google Play Poland": ["android", "ios", "pc"],
     "Google Play Japan": ["android", "ios", "pc"],
     "Google Play US": ["android", "ios", "pc"],
-    "Google Play UK": ["android", "ios", "pc"]
+    "Google Play UK": ["android", "ios", "pc"],
+    
+    /* Money Transfer Device Support */
+    "KBZpay to Uabpay": ["android", "ios"],
+    "Wavepay to Uabpay": ["android", "ios"],
+    "Ayapay to Uabpay": ["android", "ios"],
+    "Cbpay to Uabpay": ["android", "ios"],
+    "Ok pay to Uabpay": ["android", "ios"],
+    "Citizenpay to Uabpay": ["android", "ios"],
+    "A+ wallet to Uabpay": ["android", "ios"],
+    "Trustypay to Uabpay": ["android", "ios"]
   };
 
   const deviceIconMap = { "android": '<i class="fa-brands fa-android"></i>', "ios": '<i class="fa-brands fa-apple"></i>', "pc": '<i class="fa-solid fa-desktop"></i>', "tv": '<i class="fa-solid fa-tv"></i>' };
@@ -663,7 +705,9 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     });
   }
 
-  const popularList = ["CapCut", "Canva", "Telegram", "Express Vpn", "Google Drive", "TeraBox", "Gemini Veo 3", "ChatGPT Plus", "TikTok Official", "Facebook Official"];
+  /* Updated Popular List to include Money Transfer Service */
+  const popularList = ["CapCut", "Canva", "Telegram", "Express Vpn", "Google Drive", "TeraBox", "Gemini Veo 3", "ChatGPT Plus", "TikTok Official", "Facebook Official", "KBZpay to Uabpay", "Wavepay to Uabpay"];
+
   function renderPopular(containerId, excludeName) {
     const cont = document.getElementById(containerId);
     if (!cont) return;
@@ -871,7 +915,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     const fullText = moreDetailsByProduct[productName]; 
     if (!fullText) return null;
     const lines = fullText.trim().split('\n').map(l => l.trim()).filter(l => l.length > 0);
-    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Login|Gift Plan|Link Plan|Views|Likes|Package Plan|Livestream|Post Views|Reactions|Members|Custom|Promote Service|Page Boost Service|Page Like Service)/i; 
+    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Login|Gift Plan|Link Plan|Views|Likes|Package Plan|Livestream|Post Views|Reactions|Members|Custom|Promote Service|Page Boost Service|Page Like Service|Transfer)/i; 
     let targetSection = item.section.replace(/ \(.*\)/, ''); 
     const sectionStartIndex = lines.findIndex(line => line.toLowerCase().includes(targetSection.toLowerCase()));
     if (sectionStartIndex !== -1) {
