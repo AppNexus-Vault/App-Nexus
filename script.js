@@ -159,14 +159,14 @@
     "Google Play Gift Card": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_E847DAF_.png?updatedAt=1767023159606",
     
     /* Money Transfer Icons */
-    "KBZpay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-C695-D25-1.png",
-    "Wavepay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-7-D8-AC42-1.png",
-    "Ayapay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-01-CA830.png",
-    "Cbpay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-A872-E8-C.png",
-    "Ok pay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-6373-C12.png",
-    "Citizenpay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-9460-A69.png",
-    "A+ wallet to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B7-E9-D62.png",
-    "Trustypay to Uabpay": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-A7-EE340.png",
+    "KBZpay to Uabpay": "https://www.kbzpay.com/wp-content/uploads/2018/08/KBZPay-Logo.png",
+    "Wavepay to Uabpay": "https://www.wavemoney.com.mm/images/wave-money-logo.png",
+    "Ayapay to Uabpay": "https://ayapay.com/wp-content/uploads/2020/07/ayapay_logo.png",
+    "Cbpay to Uabpay": "https://www.cbbank.com.mm/themes/custom/cbbank/logo.png",
+    "Ok pay to Uabpay": "https://www.okdollar.com/images/logo.png",
+    "Citizenpay to Uabpay": "https://mcb.com.mm/wp-content/uploads/2020/12/MCB-Logo.png",
+    "A+ wallet to Uabpay": "https://www.apluswallet.com.mm/images/logo.png",
+    "Trustypay to Uabpay": "https://www.trustyecommerce.com/images/logo.png",
 
     // REGION FLAGS
     "Google Play Turkey": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_C5A9149_.png",
