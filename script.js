@@ -158,7 +158,7 @@
     "Telegram Star": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_AEF396E_.png",
     "Google Play Gift Card": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_E847DAF_.png?updatedAt=1767023159606",
     
-    /* Money Transfer Icons */
+    /* UAB PAY Top Up Service Icons */
     "KBZpay to Uabpay": "https://www.kbzpay.com/wp-content/uploads/2018/08/KBZPay-Logo.png",
     "Wavepay to Uabpay": "https://www.wavemoney.com.mm/images/wave-money-logo.png",
     "Ayapay to Uabpay": "https://ayapay.com/wp-content/uploads/2020/07/ayapay_logo.png",
@@ -328,7 +328,7 @@
       "Views (NoDrop)": [{ "duration": "10,000 Views", "price": "1,500 Kyats" }, { "duration": "100,000 Views", "price": "7,500 Kyats" }, { "duration": "1,000,000 Views", "price": "25,000 Kyats" }],
       "Likes (NoDrop)": [{ "duration": "1,000 Likes", "price": "3,000 Kyats" }, { "duration": "10,000 Likes", "price": "16,500 Kyats" }, { "duration": "100,000 Likes", "price": "120,000 Kyats" }],
       "Package Plan": [{ "duration": "100k Views + 10k Likes", "price": "15,000 Kyats" }, { "duration": "1M Views + 100k Likes", "price": "135,000 Kyats" }],
-      "Livestream Views": [{ "duration": "1,000 Views (15 min)", "price": "12,000 Kyats" }, { "duration": "1,000 Views (30 min)", "price": "25,000 Kyats" }, { "duration": "1,000 Views (60 min)", "price": "42,000 Kyats" }, { "duration": "10,000 Views (15 min)", "price": "90,000 Kyats" }],
+      "Livestream Views": [{ "duration": "1,000 Views (15 min)", "price": "12,000 Kyats" }, { "duration": "1,000 Views (30 min)", "price": "25,000 Kyats" }, { "duration": "1,000 Views (60 min)", "price": "42,000 Kyats" }, { "duration": "1,000 Views (15 min)", "price": "90,000 Kyats" }],
       "Livestream Likes": [{ "duration": "1,000 Likes", "price": "1500 Kyats" }, { "duration": "10,000 Likes", "price": "3,000 Kyats" }, { "duration": "100,000 Likes", "price": "20,000 Kyats" }],
       "Livestream Share": [{ "duration": "1,000 Shares", "price": "2000 Kyats" }, { "duration": "10,000 Shares", "price": "9,000 Kyats" }]
     },
@@ -376,7 +376,7 @@
     "Crunchyroll": { "Share": [{ "duration": "9 Months", price: "26,000 Kyats" }] },
     "Telegram Star": { "Stars": [{ "duration": "50 Stars", price: "5,800 Kyats" }, { "duration": "100 Stars", price: "11,600 Kyats" }] },
     
-    /* Money Transfer Service Data */
+    /* UAB PAY Top Up Service Data */
     "KBZpay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
     "Wavepay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
     "Ayapay to Uabpay": { "Transfer": [{ duration: "10,000 Transfer", price: "10,200 Kyats" }] },
@@ -487,7 +487,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     "Crunchyroll": `Share\n5-Months warranty • One device only` + generalDetailsBlock,
     "Telegram Star": `Usernameပဲလိုပါမယ်` + generalDetailsBlock,
 
-    /* Money Transfer Service Details */
+    /* UAB PAY Top Up Service Details */
     "KBZpay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
     "Wavepay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
     "Ayapay to Uabpay": `Transfer Service\nTime: 08:00 AM to 10:00 PM\nMinimum: 1,000,000 Kyats\nRate: 10,200 Kyats = 10,000 Kyats Transfer` + generalDetailsBlock,
@@ -574,7 +574,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     "Google Play US": ["android", "ios", "pc"],
     "Google Play UK": ["android", "ios", "pc"],
     
-    /* Money Transfer Device Support */
+    /* UAB PAY Top Up Device Support */
     "KBZpay to Uabpay": ["android", "ios"],
     "Wavepay to Uabpay": ["android", "ios"],
     "Ayapay to Uabpay": ["android", "ios"],
@@ -705,7 +705,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     });
   }
 
-  /* Updated Popular List to include Money Transfer Service */
+  /* Updated Popular List to include UAB PAY section */
   const popularList = ["CapCut", "Canva", "Telegram", "Express Vpn", "Google Drive", "TeraBox", "Gemini Veo 3", "ChatGPT Plus", "TikTok Official", "Facebook Official", "KBZpay to Uabpay", "Wavepay to Uabpay"];
 
   function renderPopular(containerId, excludeName) {
