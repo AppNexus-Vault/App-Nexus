@@ -35,7 +35,6 @@
         overlay: document.getElementById('tracking-overlay'),
         input: document.getElementById('order-id-input'),
         submit: document.getElementById('btn-track-submit'),
-        pasteBtn: document.getElementById('btn-track-paste'),
         result: document.getElementById('track-result'),
         status: document.getElementById('track-status'),
         time: document.getElementById('track-time'),
@@ -51,7 +50,6 @@
       copyReceiptBtn: document.getElementById('copy-receipt-btn'),
       nextBtn: document.getElementById('next-btn'),
       receiptText: document.getElementById('receipt-text'),
-      orderIdDisplay: document.getElementById('receipt-order-id'),
       receipts: {
         single: document.getElementById('receipt-single'),
         multi: document.getElementById('receipt-multi'),
@@ -473,7 +471,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     "Custom Website Service": `Base Service\nဒါက Any kinds of Website ကိုလိုချင်တဲ့ functionတေfully functionalဖြစ်တဲ့ထိလုပ်ပေးမာပါ။ Inspired design request လို့ရပါတယ်။ Custom Design package မဟုတ်လို့အရမ်း complex ဖြစ်တာတေတော့‌ Request လို့မရပါဘူး။ Website Codeတေလဲအပိုင်မရပါဘူး။ Domains ရှိရင်ထည့်ပေးပါတယ်။ မထည့်ပဲကျနော်လုပ်ပေးတဲ့အတိုင်းဆို lifetime ဘာhosting feeမပေးစရာမလိုပဲသူံးလို့ရပါတယ်။\nMore information on DM. Price may vary based on complexity.\n\nNormal Plan\nဒါက Any kinds of Website ကိုလိုချင်တဲ့ functionတေfully functionalဖြစ်တဲ့ထိလုပ်ပေးမာပါ။ Custom Design packageဖြစ်လို့ Inspired Design တေစိတ်ကြိုက်ဖြစ်တဲ့ထိလုပ်‌ပေးမာပါ။ Website Codeတေက‌တော့အပိုင်မရပါဘူး။` + generalDetailsBlock,
     "LightRoom": `Share\nOne device only\nSharing account will mix projects with others user.` + generalDetailsBlock,
     "Wattpad": `Sharing\nOne device only\nFull warranty.` + generalDetailsBlock,
-    "Photoshop": `Web Private\nwarranty back free only.` + generalDetailsBlock,
+    "Photoshop": `Web Private\nwarranty back free only.` + Wonderland: generalDetailsBlock, 
     "Adobe Creative Cloud": `Adobe Creative Cloud မာဆိုရင်\n\nPhotoshop → edit photos & images\n\nIllustrator → make logos & vector designs\n\nPremiere Pro → edit videos\n\nAfter Effects → add animations & effects\n\nInDesign → design posters, books, layouts\n\nAcrobat Pro → edit & sign PDFs\n\nစတဲ့ App တေရဲ့ Pro version တေအပြင်တခြား audio, animation, UI design, and content creationလုပ်ဖို့လိုတဲ့ Appတေပါပါမာပါ။` + generalDetailsBlock,
     "HMA VPN": `Can use 5 to 10 devices. Recommend for desktop devices.` + generalDetailsBlock,
     "Crunchyroll": `Share\n5-Months warranty • One device only` + generalDetailsBlock,
@@ -921,11 +919,6 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
   function buildReceipt() {
     const c = JSON.parse(localStorage.getItem('blp_cart') || '[]');
     const total = c.reduce((s, x) => s + x.unitPrice * x.qty, 0);
-    
-    // Generate Random Order ID
-    const orderId = "AN-" + Math.floor(10000 + Math.random() * 90000);
-    dom.checkout.orderIdDisplay.textContent = orderId;
-
     if (c.length === 1) {
       const x = c[0];
       dom.checkout.receipts.single.style.display = 'block';
@@ -945,8 +938,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
             </div>`).join('');
         dom.checkout.receipts.rm_total.textContent = formatKyats(total);
     }
-    
-    const clipboardText = `Order ID: ${orderId}\n-------------------\n` + c.map(i => `- ${i.product} (${i.section})${i.qty > 1 ? ` x${i.qty}` : ''}\n  Price: ${formatKyats(i.unitPrice * i.qty)}`).join('\n\n') + `\n-------------------\nTotal: ${formatKyats(total)}`;
+    const clipboardText = c.map(i => `- ${i.product} (${i.section})${i.qty > 1 ? ` x${i.qty}` : ''}\n  Price: ${formatKyats(i.unitPrice * i.qty)}`).join('\n\n') + `\n-------------------\nTotal: ${formatKyats(total)}`;
     dom.checkout.receiptText.value = clipboardText;
   }
 
@@ -1027,18 +1019,6 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     if (target.id === 'open-track-btn') { dom.tracking.overlay.style.display = 'grid'; return; }
     if (target.id === 'track-back-btn') { dom.tracking.overlay.style.display = 'none'; return; }
     if (target.id === 'btn-track-submit') { trackOrder(); return; }
-    
-    if (target.id === 'btn-track-paste') {
-      try {
-        const text = await navigator.clipboard.readText();
-        // Smart ID extraction: finds "AN-XXXXX" within the text
-        const match = text.match(/Order ID:\s*(AN-\d+)/i);
-        dom.tracking.input.value = match ? match[1] : text;
-      } catch (err) {
-        alert("Clipboard access denied. Please paste manually.");
-      }
-      return;
-    }
 
     const qtyBtn = target.closest('.qty-btn');
     if (qtyBtn) {
