@@ -1,4 +1,3 @@
-/* fonts */
 .burmese-font {
   font-family: 'Noto Serif Myanmar', 'Chivo', sans-serif !important; 
   line-height: 1.8 !important; 
@@ -114,7 +113,6 @@ header{
    font-size: 20px;
 }
 
-/* NEW: Logo & Tag Styles */
 .section-header-flex {
   display: flex;
   align-items: center;
