@@ -1,4 +1,4 @@
-(function() {
+(function() { 
   "use strict";
 
   /* =========================
@@ -31,18 +31,6 @@
         overlay: document.getElementById('why-buy-overlay'),
         backBtn: document.getElementById('why-buy-back-btn'),
     },
-    tracking: {
-        overlay: document.getElementById('tracking-overlay'),
-        input: document.getElementById('order-id-input'),
-        submit: document.getElementById('btn-track-submit'),
-        pasteBtn: document.getElementById('btn-track-paste'),
-        result: document.getElementById('track-result'),
-        status: document.getElementById('track-status'),
-        time: document.getElementById('track-time'),
-        msg: document.getElementById('track-msg'),
-        openBtn: document.getElementById('open-track-btn'),
-        backBtn: document.getElementById('track-back-btn')
-    },
     checkout: {
       noteStep: document.getElementById('note-step'),
       receiptStep: document.getElementById('receipt-step'),
@@ -51,7 +39,6 @@
       copyReceiptBtn: document.getElementById('copy-receipt-btn'),
       nextBtn: document.getElementById('next-btn'),
       receiptText: document.getElementById('receipt-text'),
-      orderIdDisplay: document.getElementById('receipt-order-id'),
       receipts: {
         single: document.getElementById('receipt-single'),
         multi: document.getElementById('receipt-multi'),
@@ -317,7 +304,7 @@
     }, 
     "SCRIBD": { "Private": [{ duration: "2 Months", price: "8,500 Kyats" }] },
     "WPS Office": { "Sharing Pro": [{ duration: "1 Month", price: "10,000 Kyats" }, { duration: "1 Year", price: "39,500 Kyats" }] },
-    "TradingView": { "Private": [{ "duration": "1 Month", "price": "33,000 Kyats" }] },
+    "TradingView": { "Private": [{ duration: "1 Month", price: "33,000 Kyats" }] },
     "PlaySafeCard": { "Voucher": [{ duration: "1 Card", price: "5,000 Kyats" }] }, 
     "TikTok Official": { 
         "Login method": [{ "duration": "100 Coin", "price": "5,300 Kyats" }],
@@ -448,8 +435,7 @@
     "TradingView": `Private\nFull warranty for full duration.\nSupports all devices.` + generalDetailsBlock, 
     "PlaySafeCard": `Voucher Code\nExpires in 7 Days.\nPlease contact admin for usage details.` + generalDetailsBlock,
     "TikTok Official": `Login method
-TikTok Login Method နဲ့ Coin ဝယ်ယူမယ်ဆိုရင် အကောင့် Email (သို့မဟုတ်) Phone နဲ့ Password ပေးရပါမယ်။
-Login ဝင်တဲ့အခါ ကျနော်တို့ဘက်က တောင်းတဲ့ Verification Code လေးကို ပြန်ပို့ပေးရုံပါပဲ။
+TikTok Login Method နဲ့ Coin ဝယ်ယူမယ်ဆိုရင် အကောင့် Email (သို့မဟုတ်) Phone နဲ့ Password ပေးရပါမယ်။Login ဝင်တဲ့အခါ ကျနော်တို့ဘက်က တောင်းတဲ့ Verification Code လေးကို ပြန်ပို့ပေးရုံပါပဲ။
 Coin ဝယ်ယူပြီးတာနဲ့ အကောင့်ထဲကနေ ချက်ချင်းပြန်ထွက်ပေးမှာဖြစ်လို့ စိတ်ချလက်ချ အပ်နှံနိုင်ပါတယ်။
 Coin အိတ်ကပ်ထဲရောက်ဖို့ (၅) မိနစ်ကနေ (၁၅) မိနစ်ခန့်သာ ကြာမြင့်မှာဖြစ်ပါတယ်။
 
@@ -461,9 +447,9 @@ Boost လုပ်ချင်တဲ့ Video link ပို့ပေးရု�
 Facebook Page လလို Inreview မကြာလို့ နာရီဝက် တနာရီအတွင်း Active ဖြစ်ပါတယ်
 View တွေ Like , Follower တွေကတော့ ကိုယ် Boost ထားတဲ့ ရက်အတွင်း တက်နေမှာဖြစ်လို့ စိတ်ရှည်ရှည်နဲ့စောင့်ဖို့လိုပါမယ်` + generalDetailsBlock,
     "Facebook Official": `Facebook Official Ads Boost လုပ်မယ်ဆိုရင် page ကိုပဲ boost လုပ်ပေးပါတယ်။ 
-Page မှာ Admin ခန့် ပေးရပါမယ်။​ Facebook Official
+Page မှာ Admin ခန့် ပေးရပါမယ်။ Facebook Official
 ဒါက Panel ကနေတင်ပေးတဲ့ View/Like မဟုတ်ပါဘူး။ Meta (Facebook) ရဲ့ Official Ads Manager ကနေ Advantage+ AI စနစ်ကိုသုံးပီး တကယ့်လူစစ်စစ်တွေဆီရောက်အောင် Boost ပေးတာဖြစ်ပါတယ်။
-​Official Ad Boosting
+Official Ad Boosting
 Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိပါဘူး။ Meta Ads ကနေ တရားဝင်လုပ်ပေးတာမလို့ Reach တွေက တကယ့် Customer အစစ်တွေဆီ ရောက်မှာပါ။` + generalDetailsBlock,
     "TikTok Non Official": `Views (NoDrop)\nNo dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။\n\nLikes (NoDrop)\nNo dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။\n\nPackage Plan\nNo dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။` + generalDetailsBlock,
     "Telegram Boosting": `Post Reactions are Lifetime No-Drop. Members have a 30-day refill guarantee.` + generalDetailsBlock,
@@ -921,11 +907,6 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
   function buildReceipt() {
     const c = JSON.parse(localStorage.getItem('blp_cart') || '[]');
     const total = c.reduce((s, x) => s + x.unitPrice * x.qty, 0);
-    
-    // Generate Random Order ID
-    const orderId = "AN-" + Math.floor(10000 + Math.random() * 90000);
-    dom.checkout.orderIdDisplay.textContent = orderId;
-
     if (c.length === 1) {
       const x = c[0];
       dom.checkout.receipts.single.style.display = 'block';
@@ -945,8 +926,7 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
             </div>`).join('');
         dom.checkout.receipts.rm_total.textContent = formatKyats(total);
     }
-    
-    const clipboardText = `Order ID: ${orderId}\n-------------------\n` + c.map(i => `- ${i.product} (${i.section})${i.qty > 1 ? ` x${i.qty}` : ''}\n  Price: ${formatKyats(i.unitPrice * i.qty)}`).join('\n\n') + `\n-------------------\nTotal: ${formatKyats(total)}`;
+    const clipboardText = c.map(i => `- ${i.product} (${i.section})${i.qty > 1 ? ` x${i.qty}` : ''}\n  Price: ${formatKyats(i.unitPrice * i.qty)}`).join('\n\n') + `\n-------------------\nTotal: ${formatKyats(total)}`;
     dom.checkout.receiptText.value = clipboardText;
   }
 
@@ -960,35 +940,6 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
   
   function formatNotes(raw) {
     return raw.split(/\n+/).map(line => `<div class="nt-line burmese-font">${escapeHTML(line.trim())}</div>`).join("");
-  }
-
-  function trackOrder() {
-    const id = dom.tracking.input.value.trim().toUpperCase();
-    if (!id) { alert("Please enter an Order ID."); return; }
-    
-    dom.tracking.result.style.display = 'block';
-    dom.tracking.status.classList.remove('status-completed', 'status-pending', 'status-processing');
-    
-    // Hardcoded Master IDs for demonstration
-    const masterSuccessIDs = ['AN-SUCCESS', 'AN-DONE', 'AN-777'];
-    const masterProcessingIDs = ['AN-WAITING', 'AN-888'];
-
-    if (masterSuccessIDs.includes(id) || (id.startsWith('AN-') && id.length % 2 !== 0)) {
-      dom.tracking.status.textContent = 'Completed';
-      dom.tracking.status.classList.add('status-completed');
-      dom.tracking.msg.textContent = 'Your order has been fully processed and activated. Enjoy your digital product!';
-      dom.tracking.time.textContent = 'Just Now';
-    } else if (masterProcessingIDs.includes(id) || (id.startsWith('AN-') && id.length % 2 === 0)) {
-      dom.tracking.status.textContent = 'Processing';
-      dom.tracking.status.classList.add('status-processing');
-      dom.tracking.msg.textContent = 'Our team is currently handling your order. This usually takes 15-30 minutes.';
-      dom.tracking.time.textContent = '12 mins ago';
-    } else {
-      dom.tracking.status.textContent = 'Pending';
-      dom.tracking.status.classList.add('status-pending');
-      dom.tracking.msg.textContent = 'Order received. We are waiting for payment verification before we begin.';
-      dom.tracking.time.textContent = '2 mins ago';
-    }
   }
 
   dom.search.input.addEventListener('input', (e) => { if (dom.views.home.classList.contains('active')) filterProducts(e.target.value); });
@@ -1022,24 +973,6 @@ Page မှာ Policy ငြိတာမျိုး လုံးဝမရှိ
     if (target.closest('#why-buy-btn')) { dom.whyBuy.overlay.style.display = "grid"; return; }
     if (target.closest('#explain-ok-btn')) { dom.explain.overlay.style.display = "none"; return; }
     if (target.closest('#why-buy-back-btn')) { dom.whyBuy.overlay.style.display = "none"; return; }
-    
-    // Tracking Event Listeners
-    if (target.id === 'open-track-btn') { dom.tracking.overlay.style.display = 'grid'; return; }
-    if (target.id === 'track-back-btn') { dom.tracking.overlay.style.display = 'none'; return; }
-    if (target.id === 'btn-track-submit') { trackOrder(); return; }
-    
-    if (target.id === 'btn-track-paste') {
-      try {
-        const text = await navigator.clipboard.readText();
-        // Smart ID extraction: finds "AN-XXXXX" within the text
-        const match = text.match(/Order ID:\s*(AN-\d+)/i);
-        dom.tracking.input.value = match ? match[1] : text;
-      } catch (err) {
-        alert("Clipboard access denied. Please paste manually.");
-      }
-      return;
-    }
-
     const qtyBtn = target.closest('.qty-btn');
     if (qtyBtn) {
       const item = JSON.parse(qtyBtn.dataset.item);
